@@ -169,7 +169,7 @@ Create `/src/components/CommentList.js`.
 
 ```
 $ npm i karma karma-chai karma-mocha karma-webpack --save-dev
-$ npm i phantomjs-prebuilt@>=1.9 --save-dev
+$ npm i phantomjs-prebuilt@^1.9 --save-dev
 $ npm i karma-sourcemap-loader karma-phantomjs-launcher --save-dev
 $ npm i karma-spec-reporter --save-dev
 $ npm i phantomjs --save-dev

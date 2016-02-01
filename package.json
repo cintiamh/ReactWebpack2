@@ -2,7 +2,7 @@
   "name": "reactwebpack",
   "version": "0.0.0",
   "description": "React Webpack project template",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "node_modules/.bin/karma start karma.config.js",
     "test:dev": "npm run test -- --watch",
