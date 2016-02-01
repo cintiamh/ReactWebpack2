@@ -1,0 +1,19 @@
+{
+  "name": "reactwebpack",
+  "version": "0.0.0",
+  "description": "React Webpack project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cintiamh/ReactWebpack2.git"
+  },
+  "author": "Cintia Higashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cintiamh/ReactWebpack2/issues"
+  },
+  "homepage": "https://github.com/cintiamh/ReactWebpack2#readme"
+}
