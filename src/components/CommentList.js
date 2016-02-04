@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 
 const propTypes = {
   onMount: PropTypes.func.isRequired,
-  isActive: PropTypes.bool
+  isActive: PropTypes.bool,
 };
 
 class CommentList extends Component {
@@ -11,14 +11,14 @@ class CommentList extends Component {
   }
 
   render() {
-      const { isActive } = this.props;
-      const className = isActive ? 'active-list' : 'inactive-list';
+    const { isActive } = this.props;
+    const className = isActive ? 'active-list' : 'inactive-list';
 
-      return (
+    return (
         <ul className={className}>
-          <li> Comment One </li>
+            <li> Comment One </li>
         </ul>
-      )
+    );
   }
 }
 

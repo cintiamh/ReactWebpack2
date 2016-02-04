@@ -211,3 +211,33 @@ import {
   spyLifecycle
 } from 'enzyme';
 ```
+
+## Setting up ESLint
+
+```
+$ npm i eslint eslint-plugin-react --save-dev
+$ npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint
+```
+
+In package.json include:
+
+```js
+"scripts": {
+    "lint": "eslint . --ext .js --ext .jsx"
+}
+```
+
+Create .eslintignore and list node_modules and dist or build folder
+
+```
+node_modules/
+dist/
+```
+
+Create `.eslintrc`
+
+```
+{
+    "extends": "airbnb"
+}
+```
